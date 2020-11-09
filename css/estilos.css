@@ -1,0 +1,50 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body{
+    background: #b2deec;
+}
+
+.contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.contenido{
+    width: 990px;
+    height: 500px;
+    margin: 180px;
+    background: #0278ae;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+header h1{
+    text-align: center;
+}
+
+article h3{
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+form fieldset{
+    padding: 60px;
+    margin: 0 auto;
+    width: 500px;
+    color: white;
+}
+
+
+#boton{
+    margin-left: 400px;
+}
