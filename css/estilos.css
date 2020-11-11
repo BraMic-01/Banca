@@ -48,3 +48,31 @@ form fieldset{
 #boton{
     margin-left: 400px;
 }
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .uk-input, .uk-select, .uk-textarea {
+    max-width: 100%;
+    width: 25%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+}
+
+.uk-button-primary {
+    background-color: #0ead69;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.uk-button-primary:hover{
+    background-color: #3bceac;
+}

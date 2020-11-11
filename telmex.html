@@ -23,13 +23,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="C:\xampp\htdocs\BANCA\consultar.html">Consultar cuenta</a>
+          <a class="nav-link" href="#">Consultar cuenta</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="C:\xampp\htdocs\BANCA\transferencias.html">Transferencias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pago a servicios</a>
+          <a class="nav-link" href="servicios.html">Pago a servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="C:\xampp\htdocs\BANCA\chequera.html">Servicios de chequera</a>
@@ -46,38 +46,38 @@
   <!--Fin de la Barra-->
 
   <!--Inicio Contenido-->
-  <div class="contenedor uk-animation-toggle" tabindex="0">
-    <header class="uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
-      <h1>Servicios que puedes pagar</h1>
-    </header>
-  </div>
+
   <nav class="contenido uk-animation-toggle" tabindex="0">
-    <article>
-      <div class="uk-animation-slide-bottom">
-        <h3>Presiona el botón para realizar el pago del servicio</h3>
-      </div>
-    </article>
-    <div class="card-group">
-      <div class="card">
-        <img src="telmex.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <a href="telmex.html" class="btn btn-primary">Pagar servicio</a>
+
+    <div class="grid-item">
+      <h1>Eligió Telefonía</h1>
+      <form>
+        <div class="uk-margin">
+          <input class="uk-input uk-form-width-medium uk-form-small" type="number" placeholder="Número Telefónico">
         </div>
-      </div>
-      <div class="card">
-        <img src="awa.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <a href="water.html" class="btn btn-primary">Pagar servicio</a>
+        <div class="uk-margin">
+          <div class="uk-form-controls">
+            <select class="uk-select" id="form-stacked-select">
+              <option>Telefonía</option>
+              <option>Telcel</option>
+              <option>Movistar</option>
+              <option>At&t</option>
+              <option>Pillofon</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="cfe.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <a href="#" class="btn btn-primary">Pagar servicio</a>
+        <div class="uk-margin">
+          <input class="uk-input uk-form-width-medium uk-form-small" type="number" placeholder="Monto de saldo">
         </div>
-      </div>
+        <button class="uk-button uk-button-primary">Enviar</button>
+        <button class="uk-button uk-button-danger">Eliminar</button>
+      </form>
+
     </div>
+
   </nav>
+
+
   <!--Fin del Contenido-->
 
 </body>
