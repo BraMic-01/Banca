@@ -1,22 +1,20 @@
-window.addEventListener("load", function() {
- 
- var button = document.querySelector("#boton1");
+window.addEventListener("load", function () {
 
-function Login() {
-    var numberCustumber = parseInt(document.querySelector("#numberCustomer").value);  
-    var password = document.querySelector("#passwordCustomer").value;   
+    var button = document.querySelector("#boton1");
 
-    if (numberCustumber == 2656078 && password == "admin") {
-        
-        button.innerHTML = '<button id="boton1" type="submit"> <a class="nav-link" href="consultar.html">Iniciar</a></button>'
-    }else{
+    function Login() {
+        var numberCustumber = parseInt(document.querySelector("#numberCustomer").value);
+        var password = document.querySelector("#passwordCustomer").value;
 
-        alert("Error verifique sus datos");   
+        if (numberCustumber == 2656078 && password == "admin") {
+            window.location = "consultar.html"
+        } else {
+            alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+        }
     }
-}
 
-button.addEventListener("click", function () {
-    Login();
-});
+    button.addEventListener("click", function () {
+        Login();
+    });
 
 });
