@@ -20,11 +20,12 @@ body{
     width: 990px;
     height: 500px;
     margin: 180px;
-    background: #0278ae;
+    background: #00b4d8;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 100px;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px black;
 }
 
 header h1{
