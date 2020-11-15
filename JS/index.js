@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
         var password = document.querySelector("#passwordCustomer").value;
 
         if (numberCustumber == 2656078 && password == "admin") {
-            window.location = "consultar.html"
+            window.location = "menu.html"
         } else {
             alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
         }
