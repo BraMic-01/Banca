@@ -1,6 +1,7 @@
 *{
     padding: 0 auto;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 body{
@@ -50,6 +51,28 @@ form fieldset{
     margin-left: 400px;
 }
 
+#boton1{
+    width: 50%;
+    background: #e71d36;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+
+#boton1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#boton1:hover{
+    transition: all 0.5ms;
+    background: #ce4257;
+    color: white;
+}
+
 .grid-item{
     padding: 20px;
     font-size: 30px;
@@ -76,4 +99,16 @@ form fieldset{
 
 .uk-button-primary:hover{
     background-color: #3bceac;
+}
+
+#titleMain{
+    color: black;
+    font-size: 30px;
+}
+
+form fieldset {
+    padding: 15px;
+    margin: 0 auto;
+    width: 500px;
+    color: white;
 }

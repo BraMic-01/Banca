@@ -31,24 +31,22 @@
   <!--Fin de la Barra-->
 
   <!--Inicio Contenido-->
-  <div class="contenedor uk-animation-toggle" tabindex="0"">
+  <div class="contenedor uk-animation-toggle" tabindex="0">
     <header class=" uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
-    <h1>Bienvenido a tu banca electrónica</h1>
+      <h1>Bienvenido a tu banca electrónica</h1>
     </header>
   </div>
-  <nav class="contenido uk-animation-toggle" tabindex="0"">
-    <article>
-        <div class=" uk-animation-slide-bottom">
-    <h3>Inicio de sesión</h3>
+  <nav class="contenido uk-animation-toggle" tabindex="0">
+    <div class="grid-item">
+      <h1 id="titleMain">Iniciar Sesión</h1>
+      <form>
+        <fieldset>
+          <p><label>Número de cliente <input id="numberCustomer" type="number" name="numero" /></label></p>
+          <p><label>Contraseña <input id="passwordCustomer" type="password" name="contraseña" /></label></p>
+          <p><button id="boton1" type="submit"> <a class="nav-link" href="#">Entrar</a></button></p>
+        </fieldset>
     </div>
-    </article>
-    <form>
-      <fieldset>
-        <p><label>Número de cliente <input id="numberCustomer" type="number" name="numero" /></label></p>
-        <p><label>Contraseña <input id="passwordCustomer" type="password" name="contraseña" /></label></p>
-        <p><button id="boton1" type="submit"> <a class="nav-link" href="#">Iniciar</a></button></p>
-  
-      </fieldset>
+
   </nav>
   <!--Fin del Contenido-->
   <script src="JS/index.js"></script>
