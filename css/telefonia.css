@@ -18,8 +18,8 @@ body{
     text-align: center;
 }
 .contenido{
-    width: 990px;
-    height: 500px;
+    width: 1000px;
+    height: auto;
     margin: 180px;
     background: #00b4d8;
     margin-top: 10px;
@@ -113,11 +113,11 @@ form fieldset {
     color: white;
 }
 
-/*.grid-container {
+.grid-container {
     display: grid;
-    grid-gap: 50px 100px;
+   /* grid-gap: 50px 100px;*/
     grid-template-columns: auto auto auto;
-   
+   /* background-color: #2196F3;*/
     padding: 10px;
   }
   
@@ -132,4 +132,4 @@ form fieldset {
     padding-left: 8px;
     padding-right: 8px;
     width: 161px;
-}*/
+}
