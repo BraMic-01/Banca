@@ -113,7 +113,7 @@ form fieldset {
     color: white;
 }
 
-/*.grid-container {
+.grid-container {
     display: grid;
     grid-gap: 50px 100px;
     grid-template-columns: auto auto auto;
@@ -121,15 +121,13 @@ form fieldset {
     padding: 10px;
   }
   
-  .grid-item {
+  .grid-item2 {
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
 
-  .uk-form-small:not(textarea):not([multiple]):not([size]) {
-    height: 35px;
-    padding-left: 8px;
-    padding-right: 8px;
-    width: 161px;
-}*/
+  .uk-h3, h3 {
+    font-size: 1.5rem;
+    line-height: 0.4;
+}
