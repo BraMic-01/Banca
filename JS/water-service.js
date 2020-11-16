@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
                 } else {
                     alert("Pago Realizado correctamente");
                     document.write('<h1>Información del ticket:</h1>' +
-                        '<p> Código de barras: ' + barcode + ' <br/> Monto a pagar ' + pay + '</p>' +
+                        '<p> Código de barras: ' + barcode + ' <br/> Monto a pagar: ' + pay + '</p>' +
                         '<a href="water.html"><button>Enviar</button></a>')
                 }
             }
