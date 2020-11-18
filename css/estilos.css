@@ -135,3 +135,20 @@ form fieldset {
 .navbar-dark .navbar-nav .nav-link {
     color: #343a40;
 }
+
+#showTickt{
+    width: 50%;
+    height: 250px;
+    display: block;
+    background: #00B4D8;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#buttonBox{
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}

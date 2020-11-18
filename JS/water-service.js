@@ -2,6 +2,18 @@ window.addEventListener("load", function () {
 
     var buttonSend = document.querySelector("#buttonSend");
     var buttonRemove = document.querySelector("#buttonRemove");
+    var showTickt = document.querySelector("#showTickt");
+    var tickt = document.querySelector("#Tickt");
+
+
+    function Show() {
+        showTickt.style.display = "block";
+        showTickt.style.background = "#ffd166";
+    }
+
+    function Esconder() {
+        showTickt.style.display = "none";
+    }
 
     function Calculate() {
         var barcode = parseInt(document.querySelector("#Barcode").value);
@@ -12,12 +24,11 @@ window.addEventListener("load", function () {
                 alert("No se puede digitar numeros negativos");
             } else {
                 if (isNaN(barcode) || isNaN(pay)) {
-                    alert("Veridique los campos");
+                    alert("Veridique los campos")
                 } else {
-                    alert("Pago Realizado correctamente");
-                    document.write('<h1>Información del ticket:</h1>' +
-                        '<p> Código de barras: ' + barcode + ' <br/> Monto a pagar: ' + pay + '</p>' +
-                        '<a href="water.html"><button>Enviar</button></a>')
+                    Show();
+                    tickt.innerHTML = "Ticket: " + "<br/>" + "Código de barras: " + barcode + "<br/>"
+                        + "Monto a pagar: " + pay + "<br/>" + "<a href=cfe.html><button type=button id=buttonBox>Imprimir</button></a>";
                 }
             }
         } catch (error) {
@@ -27,11 +38,11 @@ window.addEventListener("load", function () {
 
 
     buttonSend.addEventListener("click", function () {
-        Calculate()
+        Calculate();
     });
 
     buttonRemove.addEventListener("click", function () {
-        Remove();
+
     });
 
 });
