@@ -131,3 +131,7 @@ form fieldset {
     font-size: 1.5rem;
     line-height: 0.4;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #343a40;
+}
