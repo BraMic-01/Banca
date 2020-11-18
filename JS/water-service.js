@@ -11,10 +11,6 @@ window.addEventListener("load", function () {
         showTickt.style.background = "#ffd166";
     }
 
-    function Esconder() {
-        showTickt.style.display = "none";
-    }
-
     function Calculate() {
         var barcode = parseInt(document.querySelector("#Barcode").value);
         var pay = parseInt(document.querySelector("#Pay").value);
@@ -41,8 +37,5 @@ window.addEventListener("load", function () {
         Calculate();
     });
 
-    buttonRemove.addEventListener("click", function () {
-
-    });
 
 });
