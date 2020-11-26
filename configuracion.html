@@ -1,59 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo BRAMIC</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-    
-    <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">BRAMIC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="C:\xampp\htdocs\BANCA\consultar.html">Consultar cuenta</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\xampp\htdocs\BANCA\transferencias.html">Transferencias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\xampp\htdocs\BANCA\servicios.html">Pago a servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="C:\xampp\htdocs\BANCA\chequera.html">Servicios de chequera</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Configuración</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="C:\xampp\htdocs\BANCA\logout.html">Salir</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-<!--Fin de la Barra-->
+<html lang="es">
 
-<!--Inicio Contenido-->
-<div class= "contenedor uk-animation-toggle" tabindex="0"">
-    <header class="uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
-        <h1>Configuración a la cuenta</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo BRAMIC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">BRAMIC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Consultar Cuenta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transferencias.html">Transferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Pago a servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chequera.html">Servicios de chequera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="configuracion.html">Configuración</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.html">Salir</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fin de la Barra-->
+
+  <!--Inicio Contenido-->
+  <div class="contenedor uk-animation-toggle" tabindex="0"">
+    <header class=" uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
+    <h1>Configuración a la cuenta</h1>
     </header>
-</div>
-<nav class="contenido uk-animation-toggle" tabindex="0"">
+  </div>
+  <nav class="contenido uk-animation-toggle" tabindex="0">
     <article>
-        <div class="uk-animation-slide-bottom">
-            <h3></h3>
+      <div class=" uk-animation-slide-bottom">
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/cancelar.png" id="imgBBVA" alt="...">
+          <div class="card-body">
+            <a id="baja" href="index.html" class="btn btn-primary">Baja de cuentas</a>
+          </div>
         </div>
+        <div class="card">
+          <img src="img/politicas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="politicas.html" class="btn btn-primary">Revisar políticas</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/sinpng.jpg" alt="..." width="700px">
+          <div class="card-body">
+            <a href="#" id="buttonPassword" class="btn btn-primary">Cambiar contraseña</a>
+          </div>
+        </div>
+      </div>
     </article>
-</nav>
-<!--Fin del Contenido-->
+  </nav>
+  <!--Fin del Contenido-->
+  <script src="JS/bajacuenta.js"></script>
+  <script src="JS/configuracion.js"></script>
 </body>
+
 </html>

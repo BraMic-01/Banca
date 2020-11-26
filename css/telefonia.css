@@ -18,8 +18,8 @@ body{
     text-align: center;
 }
 .contenido{
-    width: 990px;
-    height: 500px;
+    width: 1000px;
+    height: auto;
     margin: 180px;
     background: #00b4d8;
     margin-top: 10px;
@@ -115,60 +115,21 @@ form fieldset {
 
 .grid-container {
     display: grid;
-    grid-gap: 50px 100px;
+   /* grid-gap: 50px 100px;*/
     grid-template-columns: auto auto auto;
-   
+   /* background-color: #2196F3;*/
     padding: 10px;
   }
   
-  .grid-item2 {
+  .grid-item {
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
 
-  .uk-h3, h3 {
-    font-size: 1.5rem;
-    line-height: 0.4;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #343a40;
-}
-
-#showTickt{
-    width: 50%;
-    height: 250px;
-    display: block;
-    background: #00B4D8;
-    margin: auto;
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
-#buttonBox{
-    margin-top: 10px;
-    width: 50%;
-    height: 50px;
-    font-size: 20px;
-}
-
-#cuentaPropia{
-    margin-top: 19.2px;
-}
-
-#imgCiti {
-    margin-top: 19.2px;
-    }
-
-#imgBBVA{
-    margin-top: 1.2px;
-}
-
-#buttonPassword{
-    margin-top: 70px;
-}
-
-.totalCredit{
-    margin-left: 250px;
+  .uk-form-small:not(textarea):not([multiple]):not([size]) {
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 161px;
 }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo BRAMIC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/telefonia.css">
+</head>
+
+<body>
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">BRAMIC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Consultar Cuenta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transferencias.html">Transferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Pago a servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chequera.html">Servicios de chequera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="configuracion.html">Configuración</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.html">Salir</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fin de la Barra-->
+
+  <!--Inicio Contenido-->
+
+  <nav class="contenido uk-animation-toggle" tabindex="0">
+
+    <div class="grid-item">
+      <h1>Eligió Telefonía</h1>
+      <!---Card 1-->
+      <div class="grid-container">
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>Telcel</h3>
+              <input id="Phone_telcel" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_telcel" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sendTelcel" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removeTelcel" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!---Card 2-->
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>Movistar</h3>
+              <input id="Phone_movistar" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_movistar" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sentMovistar" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removeMovistar" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!--Card 3-->
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>AT&T</h3>
+              <input id="Phone_a" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_a" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sentAt" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removeAt" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!---Card 4-->
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>Pillofon</h3>
+              <input id="Phone_pillofon" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_pillofon" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sentPillofon" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removePillofon" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!---Card 5-->
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>Solofon</h3>
+              <input id="Phone_solofon" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_solofon" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sendSolofon" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removeSolofon" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!---Card 6-->
+        <div class="grid-item">
+          <form>
+            <div class="uk-margin">
+              <h3>Weex</h3>
+              <input id="Phone_weex" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Número Telefónico">
+            </div>
+            <div class="uk-margin">
+              <input id="Monto_weex" class="uk-input uk-form-width-medium uk-form-small" type="number"
+                placeholder="Monto de saldo">
+            </div>
+            <button id="sendWeex" class="uk-button uk-button-primary">Enviar</button>
+            <button id="removeWeex" class="uk-button uk-button-danger">Eliminar</button>
+          </form>
+        </div>
+        <!--------------->
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!--Fin del Contenido-->
+  <script src="JS/telefonia.js"></script>
+</body>
+
+</html>

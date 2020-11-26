@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -45,23 +45,41 @@
   </nav>
   <!--Fin de la Barra-->
 
-  <!--Inicio Contenido-->
+  <!---Inicio del contenido-->
+
   <div class="contenedor uk-animation-toggle" tabindex="0"">
     <header class=" uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
-    <h1>Cerrar sesión</h1>
+    <h1>A continuación podrás consultar tu saldo en tus cuentas</h1>
     </header>
   </div>
-  <nav class="contenido uk-animation-toggle" tabindex="0"">
+  <nav class="contenido uk-animation-toggle" tabindex="0">
     <article>
-        <div class=" logout">
-    <h3>Presione el botón para cerrar la sesión</h3>
-    <p><button id="boton" type="submit"> <a class="nav-link" href="index.html">Cerrar
-          sesión</a></button></p>
-    </div>
+      <div class=" uk-animation-slide-bottom">
+        <h3>Da click en el botón para ver saldos</h3>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/tarjetaWhite.png" id="imgBBVA" width="300px" height="300px">
+          <div class="card-body">
+            <a href="debito.html" class="btn btn-primary">Revisar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/tarjetaDark.png" width="300px" height="300px">
+          <div class="card-body">
+            <a href="credito.html" class="btn btn-primary">Revisar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/saldo.jpeg" id="imgCiti" width="300px" height="300px">
+          <div class="card-body">
+            <a href="saldo.html" class="btn btn-primary">Revisar</a>
+          </div>
+        </div>
+      </div>
     </article>
   </nav>
   <!--Fin del Contenido-->
-
 </body>
 
 </html>

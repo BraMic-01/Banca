@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo BRAMIC</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo BRAMIC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/estilos.css">
 
 </head>
+
 <body>
-<!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">BRAMIC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-<!--Fin de la Barra-->
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
+  <!--Fin de la Barra-->
 
-<!--Inicio Contenido-->
-<div class= "contenedor uk-animation-toggle" tabindex="0"">
-    <header class="uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
-        <h1>Bienvenido a tu banca electrónica</h1>
+  <!--Inicio Contenido-->
+  <div class="contenedor uk-animation-toggle" tabindex="0">
+    <header class=" uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center">
+      <h1>Bienvenido a tu banca electrónica</h1>
     </header>
-</div>
-<nav class="contenido uk-animation-toggle" tabindex="0"">
-    <article>
-        <div class="uk-animation-slide-bottom">
-            <h3>Inicio de sesión</h3>
-        </div>
-    </article>
-    <form>
-  		<fieldset>
-        <p><label>Número de cliente <input type="tel" name="numero"/></label></p>
-        <p><label>Contraseña <input type="password" name="contraseña"/></label></p>
-
-        <p><button id="boton1" type="submit"> <a class="nav-link" href="C:\xampp\htdocs\BANCA\consultar.html">Iniciar</a></button></p>
-  		</fieldset>
-</nav>
-<!--Fin del Contenido-->
+  </div>
+  <nav class="contenido uk-animation-toggle" tabindex="0">
+    <div class="grid-item">
+      <h1 id="titleMain">Iniciar Sesión</h1>
+      <form>
+        <fieldset>
+          <p><label>Número de cliente <input id="numberCustomer" type="number" name="numero" /></label></p>
+          <p><label>Contraseña <input id="passwordCustomer" type="password" name="contraseña" /></label></p>
+          <p><button id="boton1" type="submit"> <a class="nav-link" href="#">Entrar</a></button></p>
+        </fieldset>
+        </form>
+    </div>
+  </nav>
+  <!--Fin del Contenido-->
+  <script src="JS/index.js"></script>
 </body>
+
 </html>
